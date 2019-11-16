@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: student-service
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-server:3306/vote-service?createDatabaseIfNotExist=true&useSSL=true
+    username: student
+    password: student@123
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true

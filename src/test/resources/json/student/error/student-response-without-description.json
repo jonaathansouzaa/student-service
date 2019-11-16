@@ -1,0 +1,4 @@
+{
+	"status": 400,
+	"message": "The field 'name' is required."
+}
